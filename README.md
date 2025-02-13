@@ -20,6 +20,5 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
-<img src="https://tenor.com/view/raiken-cat-hang-die-bitya-gif-26309780" width="300">
 
-эта милая Картинка всё описывает
+![эта милая Картинка кота Васи всё описывает](resources/raiken-cat.gif)
