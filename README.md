@@ -20,3 +20,4 @@ $ npm run build:mac
 # For Linux
 $ npm run build:linux
 ```
+https://tenor.com/view/raiken-cat-hang-die-bitya-gif-26309780/
