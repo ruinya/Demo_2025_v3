@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Семейный Бюджет</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:"
+    />
+    <link rel="stylesheet" href="./src/assets/main.css" />
+  </head>
+
+  <body>
+    <div class="back-btn-container">
+      <button class="btn"><a href="./index.html">◄ Назад</a></button>
+    </div>
+    <h1>Редактировать члена семьи</h1>
+
+    <div class="form-overlay">
+      <div class="form-container">
+        <form action="" id="form">
+          <lable>ФИО:</lable>
+          <input type="text" name="name" id="name" required />
+
+          <lable>Дата рождения:</lable>
+          <input type="date" name="date" id="date" required/>
+
+          <lable>Должность:</lable>
+          <input type="text" name="occupation" id="occupation" />
+
+          <lable>Место работы:</lable>
+          <input type="text" name="address" id="address" />
+
+          <label for="salary">Месячный доход:</label>
+          <input type="number" name="salary" id="salary" min="0" step="1" />          
+
+          <button type="submit" class="btn">Редактировать</button>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="./src/edit.js"></script>
+  </body>
+</html>
